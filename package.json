@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "proj190610",
+  "scripts": {
+    "gulp": "gulp",
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2"
+  }
+}
