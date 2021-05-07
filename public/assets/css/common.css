@@ -70,17 +70,17 @@ html {
 
 body {
   font-size: .15em;
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Sans", Meiryo, "sans-serif";
   line-height: 1.5;
   color: #333;
 }
 
 p, ul {
-  font-size: 0.14rem;
+  font-size: 0.15rem;
 }
 
 .u-serif {
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
 }
 
 a {
@@ -226,7 +226,7 @@ body.is-fixed {
 ---------------------------------------- */
 /* main post */
 .post p {
-  line-height: 2.1;
+  line-height: 2.0;
 }
 
 .post p + p {
@@ -265,10 +265,14 @@ body.is-fixed {
   margin-left: 2.0em;
 }
 
+.post ul li + li {
+  margin-top: 0.4em;
+}
+
 .post-ttl-lv1,
 .post h1 {
   position: relative;
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
   font-size: 0.17rem;
   width: 100%;
   margin-bottom: 12px;
@@ -358,7 +362,7 @@ body.is-fixed {
   left: 50%;
   transform: translateX(-50%);
   padding: 4px 10px;
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
   font-size: 0.16rem;
   font-weight: bold;
   background-color: #fff;
@@ -377,7 +381,7 @@ body.is-fixed {
 .block-figure .caption {
   padding: 20px 26px 10px;
   background: url("../img/img_bg_caption01.png") top left/30px no-repeat, url("../img/img_bg_caption02.png") top right/30px no-repeat;
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
   text-align: center;
 }
 
@@ -624,7 +628,7 @@ body.is-fixed {
 
 .card__body .ttl {
   font-size: 0.15rem;
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
 }
 
 .card__body .u-caveat {
@@ -671,7 +675,7 @@ body.is-fixed {
 
 .card-large__body .ttl {
   font-size: 0.15rem;
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
 }
 
 .card-large__body .u-caveat {
@@ -750,7 +754,7 @@ body.is-fixed {
   position: relative;
   display: inline-block;
   padding-bottom: 8px;
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
   font-size: 0.20rem;
 }
 
@@ -835,7 +839,7 @@ span.sp-only {
 }
 
 .u-serif {
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝 medium", "ＭＳ 明朝", serif;
+  font-family: "Helvetica Neue", Arial, "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
 }
 
 .u-caveat {
@@ -1151,7 +1155,7 @@ span.sp-only {
 
 @media screen and (min-width: 961px) {
   p, ul {
-    font-size: 0.15rem;
+    font-size: 0.16rem;
   }
   a {
     cursor: pointer;
@@ -1181,6 +1185,9 @@ span.sp-only {
   }
   .header__logo {
     margin-right: 20px;
+  }
+  .post p {
+    line-height: 2.2;
   }
   .post-ttl-lv1,
   .post h1 {
@@ -1307,7 +1314,7 @@ span.sp-only {
 
 @media screen and (min-width: 1201px) {
   p, ul {
-    font-size: 0.15rem;
+    font-size: 0.16rem;
   }
   .l-content-2col .l-2col__side.is-fixed {
     bottom: 0;
