@@ -76,7 +76,7 @@ body {
 }
 
 p, ul {
-  font-size: 0.15rem;
+  font-size: 0.14rem;
 }
 
 .u-serif {
@@ -226,7 +226,7 @@ body.is-fixed {
 ---------------------------------------- */
 /* main post */
 .post p {
-  line-height: 2;
+  line-height: 2.1;
 }
 
 .post p + p {
@@ -433,11 +433,15 @@ body.is-fixed {
 }
 
 .block-about p {
-  font-size: 0.14rem;
+  font-size: 0.13rem;
 }
 
 .block-about p + p {
   margin-top: 5px;
+}
+
+.block-about .toparea {
+  margin-bottom: 8px;
 }
 
 .block-about .toparea .name {
@@ -992,7 +996,7 @@ span.sp-only {
 
 @media screen and (min-width: 561px) {
   p, ul {
-    font-size: 0.16rem;
+    font-size: 0.15rem;
   }
   body {
     background: url("../img/img_bg_main01.png") right top/190px 157px no-repeat, url("../img/img_bg_main02.png") left bottom/190px 157px no-repeat;
@@ -1147,7 +1151,7 @@ span.sp-only {
 
 @media screen and (min-width: 961px) {
   p, ul {
-    font-size: 0.16rem;
+    font-size: 0.15rem;
   }
   a {
     cursor: pointer;
@@ -1265,7 +1269,7 @@ span.sp-only {
     padding-left: 20px;
   }
   .block-about p {
-    font-size: 0.15rem;
+    font-size: 0.14rem;
   }
   .block-about .toparea .sns__item i {
     font-size: 0.20rem;
@@ -1303,7 +1307,7 @@ span.sp-only {
 
 @media screen and (min-width: 1201px) {
   p, ul {
-    font-size: 0.16rem;
+    font-size: 0.15rem;
   }
   .l-content-2col .l-2col__side.is-fixed {
     bottom: 0;
