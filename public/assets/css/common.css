@@ -512,7 +512,7 @@ body.is-fixed {
   flex: 0 1 30%;
 }
 
-.gallery__imgwrap img {
+.gallery__imgwrap img, .gallery__imgwrap source {
   width: 100%;
   height: auto;
 }
@@ -616,7 +616,7 @@ body.is-fixed {
   flex: 0 1 30%;
 }
 
-.card__imgwrap > img {
+.card__imgwrap img, .card__imgwrap source {
   width: 100%;
   height: auto;
 }
@@ -663,7 +663,7 @@ body.is-fixed {
   overflow: hidden;
 }
 
-.card-large__imgwrap > img {
+.card-large__imgwrap img, .card-large__imgwrap source {
   width: 100%;
   height: auto;
 }
@@ -1266,7 +1266,7 @@ span.sp-only {
     overflow: hidden;
     flex: 0 1 30%;
   }
-  .block-about__imgwrap > img {
+  .block-about__imgwrap img, .block-about__imgwrap source {
     position: absolute;
     width: 100%;
     height: auto;
