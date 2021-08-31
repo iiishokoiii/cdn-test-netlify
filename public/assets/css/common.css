@@ -1071,6 +1071,7 @@ span.sp-only {
     background: url("../img/img_bg_tri01.png") left top/33px 20px repeat-x, url("../img/img_bg_tri01.png") left bottom/33px 20px repeat-x;
     flex-direction: column;
     margin-bottom: 20px;
+    min-height: 100%;
   }
   .l-content-2col .l-2col__side__inr01 {
     background-color: transparent;
