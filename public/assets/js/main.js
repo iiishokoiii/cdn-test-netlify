@@ -26,9 +26,9 @@ jQuery(function($){
     }
     function init() {
       setLink();
-      if (winW >= bp ) {
-        setSideMenu();
-      }
+      // if (winW >= bp ) {
+      //   setSideMenu();
+      // }
     }
     init();
   });
